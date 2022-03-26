@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    // color:black;
+}
+$base-color: #f9f9f9;
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    border:none !important;
+}
+.allcol{
+        font-family: 'Mulish', sans-serif;
+        color:black;
+
+    background-color: $base-color !important;
+    box-shadow: none !important;
+}
+
+.css-1f2xuhi-MuiDrawer-docked{
+    width:380px !important;
+}
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper{
+    width: 380px !important;
+}
+
+.css-1t29gy6-MuiToolbar-root {
+    min-height: 120px !important;
+}
+
+.css-1v8x7dw {
+    background: none;
+}
+
+.searchbarCon{
+    width: 34%;
+    min-width: 300px;
+    max-width: 550;
+    height: 65px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    img{
+        margin:0 25px;
+    }
+    input{
+        flex: auto;
+        height: 100%;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        margin-right: 5px;
+        background: rgba(239, 239, 239, 1);
+        font-size: 14px;
+        line-height: 21px;
+        color:rgba(118, 118, 118, 1);
+
+    }
+    }
+.head{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 340px auto;
+}
+.headerr{
+    display: flex;
+    justify-content: space-between;
+        flex-wrap: wrap;
+
+}
+.profileCon{
+    // width: 15%;
+    // min-width: 150px;
+    // max-width: 190px;
+    height: 60px;
+    // background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        border-radius: 50px;
+    }
+}
+.settingCon{
+    width: 5%;
+    min-width: 60px;
+    max-width: 100px;
+    height: 60px;
+    // background-color: chocolate;
+    .set{
+        height: 60px;
+        width: 60px;
+        background-color: rgba(27, 78, 99, 1);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.proset{
+    display: flex;
+}
+
+@media (max-width:1200px) {
+    .logoo{
+        display: none;
+    }
+    .head{
+        grid-template-columns:auto;
+
+    }
+    .searchbarCon{
+        margin-left: 70px;
+    }
+}
+@media (max-width:750px) {
+    .searchbarCon{
+        display: none;
+    }
+    .head{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

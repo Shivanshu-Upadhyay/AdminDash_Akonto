@@ -1,0 +1,267 @@
+form {
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px !important;
+}
+p {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.3rem;
+
+  color: #000000;
+}
+.maincontainer h4 {
+  margin-top: 10px;
+  margin-bottom: 30px !important;
+}
+.saveSetting {
+  width: 12.4rem;
+  height: 2.9rem;
+  background: #1eaae7;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  border: none;
+}
+
+label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #000000;
+}
+
+h6 {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.2rem !important;
+  color: #000000;
+}
+
+h5 {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 1.8rem !important;
+  line-height: 2rem !important;
+  color: #000000 !important;
+}
+
+h4 {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  line-height: 2.3rem !important;
+  color: #000000 !important;
+}
+
+::placeholder {
+  opacity: 1 !important; /* Firefox */
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  line-height: 1rem !important;
+  color: #bfbfbf !important;
+}
+
+.file::placeholder {
+  opacity: 1 !important; /* Firefox */
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  line-height: 1rem !important;
+  border-radius: 3px;
+
+  color: #bfbfbf !important;
+  background: rgba(102, 102, 102, 1) !important;
+}
+
+.file {
+  padding: 0px 2px 0px 2px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .saveSetting {
+    width: 10rem;
+    height: 2.9rem;
+    background: #1eaae7;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    border: none;
+  }
+}
+.padiing {
+  margin-left: 13px !important;
+}
+
+/* +++++++++++++++++++++++++RECIPT SETTING+++++++++++++++++++++++ */
+
+a {
+  text-decoration: none !important;
+}
+
+.placeblack::placeholder {
+  opacity: 1 !important; /* Firefox */
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  line-height: 1rem !important;
+  color: #000 !important;
+}
+
+/* ******************** PCI COMPLIANCE ************************** */
+
+.mainpci {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 30px !important;
+  padding: 20px 20px 80px 20px !important;
+}
+.fistpara {
+  color: #ffa53b;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.firstblock {
+  line-height: 24px;
+}
+
+.down {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1caae8;
+}
+
+.pendingtext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.lastblock {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@ FUNDING STYLE @@@@@@@@@@@@@@@@@ */
+
+.atag {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #1eaae7;
+}
+
+/* ########################### ALERT ############################## */
+
+.basic {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Integrations &&&&&&&&&&&&&&&&&&&&&&& */
+
+.mainInte {
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.intebtn {
+  width: 12rem;
+  height: 2.4rem;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #1eaae7;
+  border: 1px solid #1eaae7;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.intecontainer2 {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 20px 0px 20px 30px !important;
+  border-radius: 30px;
+}
+
+.inteicon1 {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 30px;
+}
+
+.inteicon2 {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 20px;
+}
+
+.borderbottominte {
+  border-bottom: 1.5px solid #ffffff;
+  padding-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .intebtn {
+    width: 9rem;
+    height: 2.9rem;
+  }
+  .cancel {
+    width: 9.7rem !important;
+    height: 2.9rem;
+    margin-bottom: 20px;
+  }
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Change Password %%%%%%%%%%%%%%%%%%%%%%% */
+
+.changhading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.cancel {
+  width: 12.4rem;
+  height: 2.8rem;
+  background: #f4f5f9;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #969b9f;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  border: none;
+  margin-right: 40px !important;
+}
+
+.lablesize {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 39px;
+  color: #000000;
+}
+.eye{
+ position: absolute;
+  top: 14px;
+  right: 0px;
+}
+.iconfix{
+  position: relative;
+}

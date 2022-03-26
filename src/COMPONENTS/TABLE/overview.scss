@@ -1,0 +1,39 @@
+.css-204u17-MuiDataGrid-main{
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+.MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.MuiDataGrid-row.Mui-hovered {
+    background-color: transparent;
+    border: 1px solid red;
+}
+.css-1fajery-MuiDataGrid-root{
+    // color:red !important;
+    border: 1px solid transparent !important;
+}
+.MuiDataGrid-columnHeaders {//row head
+    font-size: 18px;
+    font-weight: 700;
+}
+.css-1fajery-MuiDataGrid-root .MuiDataGrid-row {//row
+    border: 1px solid #f9f9f9;
+    min-height: 70px !important;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.css-17jjc08-MuiDataGrid-footerContainer{
+    border: none !important;
+}
+.css-1fajery-MuiDataGrid-root .MuiDataGrid-cell{
+    border: none !important;
+}
+.css-okt5j6-MuiDataGrid-columnHeaders{
+    border: none !important;
+}
+.css-1fajery-MuiDataGrid-root .MuiDataGrid-columnSeparator{
+    color: transparent !important;
+}

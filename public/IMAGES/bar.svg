@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="40" style="stroke: blue;stroke-width:11px;fill:none;" />
+    <circle cx="50" cy="50" r="40"
+    style="	stroke-dashoffset:252;stroke-dasharray:252;stroke-dashoffset:calc(252 - (252 * 20) / 100);stroke: yellow;stroke-width:11px;fill:none;" />
+</svg>

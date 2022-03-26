@@ -1,0 +1,44 @@
+.card{
+    width: 250px;
+    min-height: 125px;
+    background-color: yellow;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 5px;
+}
+.card1head,.card2head{
+    padding-bottom: 5px;
+}
+.card1head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card1data{
+    font-weight: 400;
+    font-size: 12px;
+}
+.card2head{
+    font-size: 32px;
+    font-weight: 800;
+}
+.card2data{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imgcon{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
