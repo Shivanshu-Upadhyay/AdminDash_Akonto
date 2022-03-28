@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Routes, Route,} from "react-router-dom";
-import Main from './Main';
+import HomePage from "./HomePage";
 import Sidebar from '../SIDEBAR/Sidebar';
 import SubAdmin from "../SubAdmin/SubAdmin";
 import Mid from '../Midmodule/Mid';
@@ -28,7 +28,7 @@ import CMS from "../CMSmodule/CMS";
 import Meta from '../MetaModule/Meta';
 import SiteSetup from "../SettingModule/SiteSetup";
 import ChangePass from "../Changepass/ChangePass";
-
+import PGmodule from '../PGmodule/PGmodule';
 
 const drawerWidth = 240;
 const sbar = { backgroundImage:"url('../../IMAGES/sbar.jpg')",backgroundSize:"100% 100%"}
@@ -136,8 +136,9 @@ export default function Default() {
         </Drawer>
       )}
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/SubAdmin" element={<SubAdmin />} />
+        <Route path="/PaymentGates" element={<PGmodule />} />
         <Route path="/Mid" element={<Mid />} />
         <Route path="/ChineseBank" element={<ChineseBank />} />
         <Route path="/BankcodeAkonto" element={<BankcodeAkonto />} />
@@ -159,7 +160,6 @@ export default function Default() {
         <Route path="/Meta" element={<Meta />} />
         <Route path="/SiteSetup" element={<SiteSetup />} />
         <Route path="/ChangePassword" element={<ChangePass />} />
-        
       </Routes>
     </Box>
   );

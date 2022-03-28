@@ -110,7 +110,7 @@ function Sidebar() {
       dropcon: drop3 && (
         <div className="dropcon">
           <div>
-            <Link className="activ" to="/alltransaction">
+            <Link className="activ" to="/PaymentGates">
               Payment Gates
             </Link>
           </div>
